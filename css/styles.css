@@ -1,0 +1,27 @@
+:root {
+    --a-color: #3d0a91;
+}
+
+header,
+footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+ul  label:hover {
+    background-color: var(--a-color);
+}
